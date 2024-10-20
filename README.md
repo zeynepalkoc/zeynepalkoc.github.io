@@ -1,1 +1,0 @@
-# zeynepalkoc.github.io
