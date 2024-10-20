@@ -1,55 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Zeynep</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Zeynep Alkoç - CV</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffcc99;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 900px;
+            background-color: #ffffff;
+            margin: 30px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+            grid-gap: 20px;
+        }
+
+        .sidebar {
+            background-color: #ffe5b4;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .sidebar img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        h1 {
+            font-size: 2em;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 10px;
+            color: #003366;
+        }
+
+        h2 {
+            color: #003366;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        h3 {
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .main-content {
+            padding: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .skills ul, .languages ul {
+            padding-left: 20px;
+        }
+
+        .skills ul li, .languages ul li {
+            margin-bottom: 8px;
+        }
+
+        .sidebar h2, .sidebar p {
+            margin-top: 0;
+        }
+
+        .contact-info li {
+            color: black;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            text-align: center;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Zeynep</h1>
-            <p>Cyber Security Student | Penetration Tester</p>
-        </header>
+        <!-- Sol Taraf: Fotoğraf ve İletişim Bilgileri -->
+        <div class="sidebar">
+            <img src="/resimler/profile.jpg" alt="Zeynep Alkoç Fotoğrafı" style="width:300px;"/>
+            <!-- Fotoğrafın yer tutucusu -->
 
-        <section class="contact-info">
-            <h2>Contact Information</h2>
-            <ul>
-                <li>Email: zeynep@example.com</li>
-                <li>Phone: +90 555 123 4567</li>
-                <li>LinkedIn: <a href="#">linkedin.com/in/zeynep</a></li>
-                <li>GitHub: <a href="#">github.com/zeynep</a></li>
-            </ul>
-        </section>
+            <h2>Zeynep Alkoç</h2>
 
-        <section class="education">
-            <h2>Education</h2>
-            <p><strong>Istinye University</strong> - Cyber Security (2023 - Present)</p>
-        </section>
-
-        <section class="experience">
-            <h2>Experience</h2>
-            <div class="job">
-                <h3>Front-End Developer</h3>
-                <p>YTU Technopark - 2023 - Present</p>
+            <div class="contact-info">
+                <h3>İletişim Bilgileri</h3>
                 <ul>
-                    <li>Developed responsive web interfaces for various projects.</li>
-                    <li>Worked closely with design teams to implement user-friendly features.</li>
+                    <li>Telefon: 0534 123 45 67</li>
+                    <li>E-posta: zeynep@example.com</li>
+                    <li>Adres: İstanbul, Türkiye</li>
                 </ul>
             </div>
-        </section>
 
-        <section class="skills">
-            <h2>Skills</h2>
+            <div class="skills">
+                <h3>Beceriler</h3>
+                <ul>
+                    <li>Siber Güvenlik Araştırmaları</li>
+                    <li>Penetrasyon Testi</li>
+                    <li>Front-End Development</li>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Python, SQL</li>
+                </ul>
+            </div>
+
+            <div class="languages">
+                <h3>Diller</h3>
+                <ul>
+                    <li>Türkçe (Ana Dil)</li>
+                    <li>İngilizce (B2)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Sağ Taraf: Hakkımda ve Diğer Bilgiler -->
+        <div class="main-content">
+            <h1>Hakkımda</h1>
+            <p>Merhaba, ben Zeynep. 19 yaşında, Istinye Üniversitesi'nde Siber Güvenlik alanında ikinci sınıf öğrencisiyim. Siber güvenlik, penetrasyon testleri ve front-end geliştirme konularında tutkulu bir araştırmacı ve geliştiriciyim.</p>
+
+            <h2>Eğitim</h2>
             <ul>
-                <li>Cyber Security Research</li>
-                <li>Penetration Testing</li>
-                <li>Front-End Development</li>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Python, SQL</li>
+                <li><strong>Istinye Üniversitesi</strong> (2023 - Halen) - Siber Güvenlik</li>
             </ul>
-        </section>
+
+            <h2>İş Deneyimi</h2>
+            <ul>
+                <li><strong>Front-End Developer</strong> - YTU Technopark (2023 - Halen)</li>
+                <li><strong>Web İçerik Yönetimi</strong> - YTU Technopark (2023 - Halen)</li>
+            </ul>
+
+            <h2>Staj Deneyimi</h2>
+            <ul>
+                <li><strong>Malatya Teknokent</strong> (08.2024)</li>
+            </ul>
+
+            <h2>Projeler</h2>
+            <ul>
+                <li><strong>GitHub:</strong> <a href="https://github.com/zeynepalkoc">zeynepalkoc</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        ©️ 2024 Zeynep Alkoç. Tüm hakları saklıdır.
     </div>
 </body>
 </html>
